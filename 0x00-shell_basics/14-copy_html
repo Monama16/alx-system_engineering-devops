@@ -1,2 +1,2 @@
 #!/bin/bash
-lcp -u *.htm ..
+cp -un *.html ../
