@@ -1,5 +1,3 @@
 #!/bin/bash
 printf "%s
 " {a..n}{a..z} {o..z}{a..n} | grep -v oo
-printf "%s
-" {o..z}{o..z} | grep -v oo
