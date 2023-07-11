@@ -1,3 +1,2 @@
 #!/bin/bash
-printf "%s
-" {o..z}{o..z} | grep -v oo
+echo {a..n}{a..z} | tr   n; echo {p..z}{a..z} | tr   n
