@@ -1,2 +1,0 @@
-echo -e '#!/bin/bash\necho {a..z}{a..z} | tr " " "\n" | grep -v "oo"' > 12-combinations
-
