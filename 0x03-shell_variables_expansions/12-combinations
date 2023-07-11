@@ -1,2 +1,5 @@
 #!/bin/bash
-echo {a..n}{a..z} | tr -s   n; echo {p..z}{a..z} | tr -s   n
+printf "%s
+" {a..n}{a..z} {o..z}{a..n} | grep -v oo
+printf "%s
+" {o..z}{o..z} | grep -v oo
